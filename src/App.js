@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Route path="/quotes">
+        <Route path="/quotes" exact>
           <AllQuotes />
         </Route>
         <Route path="/quotes/:quoteId">
